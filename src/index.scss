@@ -1,0 +1,14 @@
+@import "./common/color.scss";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $primary-color;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}

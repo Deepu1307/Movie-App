@@ -1,0 +1,27 @@
+@import "../../common//color.scss";
+
+.movie-list,
+.show-list {
+  margin: 30px 0px;
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 35px;
+    font-weight: 700;
+  }
+
+  h2::after {
+    display: block;
+    content: "";
+    width: 85px;
+    height: 1px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 8px;
+  }
+}
+
+// .movie-container {
+//   // display: grid;
+//   // grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+//   // grid-gap: 50px;
+// }
